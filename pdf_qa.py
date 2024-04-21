@@ -96,7 +96,7 @@ class PdfQA:
             task="text2text-generation",
             model = "lmsys/fastchat-t5-3b-v1.0",
             max_new_tokens=100,
-            model_kwargs={"device_map": "auto", "load_in_8bit": load_in_8bit, "max_length": 512, "temperature": 0.}
+            # model_kwargs={"device_map": "auto", "load_in_8bit": load_in_8bit, "max_length": 512, "temperature": 0.}
         )
     
     
