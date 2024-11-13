@@ -1,10 +1,3 @@
-## RAG based Chatbot
-I have used Retrieval augmented generation via `langchain` to create a chatbot that answers questions related to a pdf when given to it. The app has been hosted on streamlit at [pdf-chatbot-owais](https://pdf-chatbot-owais.streamlit.app/)
-
-Here’s a more concise `README.md` for your RAG-Chatbot project:
-
----
-
 # RAG-Chatbot
 
 This repository hosts a Retrieval-Augmented Generation (RAG) based question-answering chatbot designed to answer questions related to files uploaded by the user. The app is deployed on Streamlit, providing an interactive interface for users to upload files and receive answers.
